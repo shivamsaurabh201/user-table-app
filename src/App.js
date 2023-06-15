@@ -1,11 +1,11 @@
 import React from 'react';
-import UserTable from './UserTable';
+import Table from './Table';
 
 const App = () => {
   return (
     <div>
       <h1>User Table</h1>
-      <UserTable />
+      <Table />
     </div>
   );
 };
