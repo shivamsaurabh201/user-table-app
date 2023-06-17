@@ -24,6 +24,7 @@ function Table() {
       <td>{user.age}</td>
       <td>{user.email}</td>
       <td>{user.phone}</td>
+      <td>{user.gender}</td>
     </tr>
   ));
 
@@ -37,6 +38,9 @@ function Table() {
             <th>Age</th>
             <th>Email</th>
             <th>Phone</th>
+            <th>Gender</th>
+            
+          
           </tr>
         </thead>
         <tbody>{tableRows}</tbody>
